@@ -1,0 +1,74 @@
+{
+  "name": "skills_hub",
+  "version": "0.1.0",
+  "skills": [
+    {
+      "name": "clean-dead-code",
+      "path": "skills/clean-dead-code",
+      "category": "code-review",
+      "description": "冗余代码清理——识别并移除死代码（未使用的导入、类、函数、配置、导出项、残留设计）。触发场景：用户要求清理冗余、移除死代码、删除未使用的定义、清理残留。",
+      "compatibility": [
+        "codex",
+        "opencode"
+      ],
+      "stability": "stable",
+      "tags": [
+        "cleanup",
+        "dead-code",
+        "refactor",
+        "review"
+      ]
+    },
+    {
+      "name": "coding-guidelines",
+      "path": "skills/coding-guidelines",
+      "category": "coding",
+      "description": "LLM 编码行为准则，减少常见编码错误——先思考再编码、简洁优先、精准修改、目标驱动执行",
+      "compatibility": [
+        "codex",
+        "opencode"
+      ],
+      "stability": "stable",
+      "tags": [
+        "coding",
+        "guidelines",
+        "best-practices"
+      ]
+    },
+    {
+      "name": "skill-creator",
+      "path": "skills/skill-creator",
+      "category": "tooling",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "compatibility": [
+        "codex",
+        "opencode"
+      ],
+      "stability": "stable",
+      "tags": [
+        "skill",
+        "create",
+        "workflow",
+        "agent"
+      ]
+    },
+    {
+      "name": "test-writer",
+      "path": "skills/test-writer",
+      "category": "testing",
+      "description": "编写高质量测试代码的专项技能。覆盖单元测试、集成测试、回归测试和异步测试的设计模式与最佳实践。当需要为新功能编写测试、为 bug 修复编写回归测试、为现有模块补充测试覆盖、或审查测试质量时触发此技能。",
+      "compatibility": [
+        "codex",
+        "opencode"
+      ],
+      "stability": "stable",
+      "tags": [
+        "testing",
+        "unit-test",
+        "integration",
+        "regression",
+        "async"
+      ]
+    }
+  ]
+}

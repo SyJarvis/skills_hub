@@ -1,0 +1,26 @@
+{
+  "clean-dead-code": {
+    "category": "code-review",
+    "stability": "stable",
+    "tags": ["cleanup", "dead-code", "refactor", "review"],
+    "compatibility": ["codex", "opencode"]
+  },
+  "coding-guidelines": {
+    "category": "coding",
+    "stability": "stable",
+    "tags": ["coding", "guidelines", "best-practices"],
+    "compatibility": ["codex", "opencode"]
+  },
+  "skill-creator": {
+    "category": "tooling",
+    "stability": "stable",
+    "tags": ["skill", "create", "workflow", "agent"],
+    "compatibility": ["codex", "opencode"]
+  },
+  "test-writer": {
+    "category": "testing",
+    "stability": "stable",
+    "tags": ["testing", "unit-test", "integration", "regression", "async"],
+    "compatibility": ["codex", "opencode"]
+  }
+}
