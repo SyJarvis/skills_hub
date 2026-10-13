@@ -11,6 +11,12 @@
     "tags": ["coding", "guidelines", "best-practices"],
     "compatibility": ["codex", "opencode"]
   },
+  "jev-router": {
+    "category": "tooling",
+    "stability": "stable",
+    "tags": ["jev", "codex", "model-routing", "agent"],
+    "compatibility": ["codex"]
+  },
   "skill-creator": {
     "category": "tooling",
     "stability": "stable",

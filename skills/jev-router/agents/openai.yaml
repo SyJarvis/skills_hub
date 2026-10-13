@@ -1,0 +1,6 @@
+interface:
+  display_name: "Jev Router"
+  short_description: "Route Codex worker models and reasoning with Jev"
+  default_prompt: "使用 $jev-router 委派开发任务，由 Jev 选择并固定工作代理模型，在轮次之间调整推理强度，由主代理验收结果。"
+policy:
+  allow_implicit_invocation: true

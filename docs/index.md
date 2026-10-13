@@ -33,4 +33,5 @@
 
 | Skill | 状态 | 描述 |
 |-------|------|------|
+| [jev-router](skills/jev-router.md) | stable | Use Jev to choose a Codex worker model for a delegated development task, keep that model fixed, and adjust reasoning effort between execution turns through managed App Server sessions. Use when the user requests Jev routing or adaptive worker reasoning. |
 | [skill-creator](skills/skill-creator.md) | stable | Guide for creating effective skills. This skill should be... |

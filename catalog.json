@@ -36,6 +36,22 @@
       ]
     },
     {
+      "name": "jev-router",
+      "path": "skills/jev-router",
+      "category": "tooling",
+      "description": "Use Jev to choose a Codex worker model for a delegated development task, keep that model fixed, and adjust reasoning effort between execution turns through managed App Server sessions. Use when the user requests Jev routing or adaptive worker reasoning.",
+      "compatibility": [
+        "codex"
+      ],
+      "stability": "stable",
+      "tags": [
+        "jev",
+        "codex",
+        "model-routing",
+        "agent"
+      ]
+    },
+    {
       "name": "skill-creator",
       "path": "skills/skill-creator",
       "category": "tooling",

@@ -1,0 +1,20 @@
+{
+  "jev_model": "jev-latest",
+  "model_profiles": {
+    "gpt-6-luna": "User-selected baseline with high reasoning effort. Initial routing hypothesis: suitable for clearly scoped implementation, code inspection, and verification with explicit acceptance criteria. This is a provisional policy, not measured cost, speed, or success-rate evidence.",
+    "gpt-6-astra": "Initial routing hypothesis: consider for tasks with substantial architectural ambiguity, difficult cross-component reasoning, or unresolved root causes requiring broader analysis. This is a provisional policy, not measured cost, speed, or success-rate evidence.",
+    "gpt-6-sol": "Initial routing hypothesis: consider for a substantial but well-bounded coding task with clear architecture, implementation requirements, and verification criteria. This is a distinct candidate, not an alias of gpt-5.6-sol, and is not a measured cost, speed, or success-rate claim.",
+    "gpt-5.6-sol": "Distinct older coding model described by the current environment as suitable for complex work. Initial routing hypothesis: consider for a concrete coding task requiring substantial implementation and diagnosis. This is not an alias of any gpt-6 model and is not a measured cost or performance claim.",
+    "gpt-5.6-luna": "Distinct older model described by the current environment as fast and efficient. Initial routing hypothesis: consider for narrow, clearly specified inspection, edits, and verification. This is not an alias of gpt-6-luna, and no measured cost, latency, or success-rate evidence is asserted."
+  },
+  "effort_profiles": {
+    "low": "Consider for a narrow, well-understood step with clear instructions and little unresolved uncertainty.",
+    "medium": "Consider for routine inspection or implementation requiring a few connected reasoning steps.",
+    "high": "User-selected baseline. Consider for implementation or diagnosis requiring careful reasoning and verification.",
+    "xhigh": "Consider when significant interacting constraints or unresolved technical uncertainty justify additional reasoning.",
+    "max": "Consider for unusually difficult reasoning after ordinary investigation has exposed a concrete, unresolved challenge.",
+    "ultra": "Consider only for the most demanding unresolved reasoning problems where additional analysis is justified by the task."
+  },
+  "request_timeout_seconds": 30,
+  "turn_timeout_seconds": 600
+}
