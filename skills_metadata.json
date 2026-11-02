@@ -11,11 +11,35 @@
     "tags": ["coding", "guidelines", "best-practices"],
     "compatibility": ["codex", "opencode"]
   },
+  "gitbook-docs": {
+    "category": "documentation",
+    "stability": "beta",
+    "tags": ["gitbook", "documentation", "information-architecture", "validation"],
+    "compatibility": ["codex", "opencode"]
+  },
   "jev-router": {
     "category": "tooling",
     "stability": "stable",
     "tags": ["jev", "codex", "model-routing", "agent"],
     "compatibility": ["codex"]
+  },
+  "research-docs": {
+    "category": "research",
+    "stability": "beta",
+    "tags": ["research", "documentation", "knowledge", "evidence"],
+    "compatibility": ["codex", "opencode"]
+  },
+  "research-experiment": {
+    "category": "research",
+    "stability": "beta",
+    "tags": ["research", "experiment", "runs", "reproducibility"],
+    "compatibility": ["codex", "opencode"]
+  },
+  "research-project": {
+    "category": "research",
+    "stability": "beta",
+    "tags": ["research", "project-management", "workspace", "portfolio"],
+    "compatibility": ["codex", "opencode"]
   },
   "skill-creator": {
     "category": "tooling",

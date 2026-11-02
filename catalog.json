@@ -36,6 +36,23 @@
       ]
     },
     {
+      "name": "gitbook-docs",
+      "path": "skills/gitbook-docs",
+      "category": "documentation",
+      "description": "Create, plan, migrate, or reorganize GitBook project documentation by inspecting the repository, deriving an evidence-backed information architecture, generating .gitbook.yaml, SUMMARY.md, and Markdown pages, and validating navigation and links. Use for requests such as creating GitBook docs for a codebase, redesigning a docs directory, documenting a project from source, filling documentation gaps, or reviewing an existing GitBook structure.",
+      "compatibility": [
+        "codex",
+        "opencode"
+      ],
+      "stability": "beta",
+      "tags": [
+        "gitbook",
+        "documentation",
+        "information-architecture",
+        "validation"
+      ]
+    },
+    {
       "name": "jev-router",
       "path": "skills/jev-router",
       "category": "tooling",
@@ -49,6 +66,57 @@
         "codex",
         "model-routing",
         "agent"
+      ]
+    },
+    {
+      "name": "research-docs",
+      "path": "skills/research-docs",
+      "category": "research",
+      "description": "创建、更新、整理和总结研究文档，包括设计说明、操作方法、问题调查、数据集说明、 文献笔记、工作记录和运行总结。适用于保存可追溯且具有复用价值的知识，不用于存放 原始日志、检查点或日常项目状态。",
+      "compatibility": [
+        "codex",
+        "opencode"
+      ],
+      "stability": "beta",
+      "tags": [
+        "research",
+        "documentation",
+        "knowledge",
+        "evidence"
+      ]
+    },
+    {
+      "name": "research-experiment",
+      "path": "skills/research-experiment",
+      "category": "research",
+      "description": "组织并执行训练、评测、基准测试、消融、调试和重跑等研究或工程运行；记录命令、 配置、状态、日志和输出，并在产生有效结论时保存简要总结。适用于启动、监控、恢复、 比较或清理运行及其结果。",
+      "compatibility": [
+        "codex",
+        "opencode"
+      ],
+      "stability": "beta",
+      "tags": [
+        "research",
+        "experiment",
+        "runs",
+        "reproducibility"
+      ]
+    },
+    {
+      "name": "research-project",
+      "path": "skills/research-project",
+      "category": "research",
+      "description": "管理包含多个研究项目的工作区：区分在研项目、参考仓库、参考代码、数据集、 工具、技能与非活跃材料；维护简洁的项目总览；梳理优先级、关键问题、阻塞项和 下一检查点；依据现有证据决定继续、暂停、结束或归档。适用于包含多个项目的工作区管理； 单个项目仓库中的技术文档遵循该项目自身约定，具体运行、训练与日志管理使用 research-experiment。",
+      "compatibility": [
+        "codex",
+        "opencode"
+      ],
+      "stability": "beta",
+      "tags": [
+        "research",
+        "project-management",
+        "workspace",
+        "portfolio"
       ]
     },
     {

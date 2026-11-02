@@ -23,6 +23,20 @@
 |-------|------|------|
 | [coding-guidelines](skills/coding-guidelines.md) | stable | LLM 编码行为准则，减少常见编码错误——先思考再编码、简洁优先、精准修改、目标驱动执行 |
 
+### documentation
+
+| Skill | 状态 | 描述 |
+|-------|------|------|
+| [gitbook-docs](skills/gitbook-docs.md) | beta | Create, plan, migrate, or reorganize GitBook project docu... |
+
+### research
+
+| Skill | 状态 | 描述 |
+|-------|------|------|
+| [research-docs](skills/research-docs.md) | beta | 创建、更新、整理和总结研究文档，包括设计说明、操作方法、问题调查、数据集说明、 文献笔记、工作记录和运行总结。适用... |
+| [research-experiment](skills/research-experiment.md) | beta | 组织并执行训练、评测、基准测试、消融、调试和重跑等研究或工程运行；记录命令、 配置、状态、日志和输出，并在产生有效... |
+| [research-project](skills/research-project.md) | beta | 管理包含多个研究项目的工作区：区分在研项目、参考仓库、参考代码、数据集、 工具、技能与非活跃材料；维护简洁的项目总... |
+
 ### testing
 
 | Skill | 状态 | 描述 |
